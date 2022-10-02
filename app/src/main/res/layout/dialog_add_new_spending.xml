@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="#90949A"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:background="#9990949A"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content">
 
     <TextView
         android:id="@+id/titleDialogAddNewSpending"
@@ -73,6 +73,7 @@
         android:paddingVertical="8dp" />
 
     <TextView
+        android:layout_marginBottom="15dp"
         android:id="@+id/tvCancelDialogAddNewSpending"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -86,6 +87,7 @@
         android:textSize="25sp" />
 
     <TextView
+        android:layout_marginBottom="15dp"
         android:id="@+id/tvOkDialogAddNewSpending"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

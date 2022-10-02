@@ -42,7 +42,7 @@
         android:paddingHorizontal="15dp"
         android:paddingVertical="10dp"
         android:text="ten danh muc"
-        android:textColor="#2196F3"
+        android:textColor="#FFFFFF"
         android:textSize="20sp" />
 
     <ImageView
