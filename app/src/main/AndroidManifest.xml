@@ -14,7 +14,22 @@
         android:theme="@style/Theme.Project05_classFundManager"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".myActivity.ListSpendingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myActivity.ListMoneyHasPayedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myActivity.OneTypeMoneyMustPayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myActivity.MainMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myActivity.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myActivity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
