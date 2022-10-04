@@ -42,7 +42,7 @@ public class ListMoneyHasPayAdapter extends RecyclerView.Adapter<ListMoneyHasPay
             ContentOfMoneyToBePay content = list.get(position);
             holder.tvName.setText(content.getName() + ": "+ content.getMoney());
 
-            holder.tvName.setOnClickListener(new View.OnClickListener() {
+            /*holder.tvName.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     Intent intent = new Intent(context, OneTypeMoneyMustPayActivity.class);
@@ -52,7 +52,7 @@ public class ListMoneyHasPayAdapter extends RecyclerView.Adapter<ListMoneyHasPay
                     intent.putExtra("Money", content.getMoney());
                     context.startActivity(intent);
                 }
-            });
+            });*/
             holder.imgDelete.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
